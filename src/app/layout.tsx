@@ -12,9 +12,11 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   userScalable: false,
+  themeColor: "black",
   // Also supported by less commonly used
   // interactiveWidget: 'resizes-visual',
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
