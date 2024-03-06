@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./component/Navbar";
@@ -9,7 +9,14 @@ export const metadata: Metadata = {
   title: "Steve Dev",
   description: "Web Designer",
 };
-
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  // Also supported by less commonly used
+  // interactiveWidget: 'resizes-visual',
+};
 export default function RootLayout({
   children,
 }: Readonly<{
