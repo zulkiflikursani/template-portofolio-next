@@ -5,10 +5,10 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Portofolio App",
     short_name: "Portofolio App",
     description: "Portofolio App",
-    start_url: "/",
+    start_url: ".",
     display: "standalone",
-    background_color: "#fff",
-    theme_color: "#fff",
+    background_color: "#ffffff",
+    theme_color: "#000000",
     icons: [
       {
         src: "/favicon.ico",
